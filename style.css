@@ -1,0 +1,121 @@
+body{background-color: #fff;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#recipesradius{
+    border: 3px solid #1c4c2d;
+    padding: 10px;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, #2e352d,#051605);
+    box-shadow: 2px 2px 2px rgb(179, 189, 179);
+}
+
+main{
+    background-image: linear-gradient(#2a2a2a, #000);
+    border: 15px #2a2a2a;
+    width: auto;
+    padding:20px;
+    line-height: 1.6;
+}
+
+header{background-image:linear-gradient(to bottom, #2e352d,#137213);
+color: #fff;
+font-size: x-large;
+text-shadow: 2px 2px 5px red;
+text-align: center;
+padding-bottom: 5px;
+}
+
+nav{background-color: #040e09;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+}
+
+nav a:hover{
+    color: #f4f15a
+}
+nav a{text-decoration: none;
+  padding: 1em;
+  color: rgb(250, 245, 245);
+  text-shadow: 1px 1px 2px red;}
+
+h1{margin-bottom: 0;
+    font-family:Georgia, 'Times New Roman', serif}
+
+h2,h3{color: #fff;
+    font-family:Georgia, 'Times New Roman', serif}
+
+footer{
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding:5px;
+    color:#fff;
+}
+
+#homeimg {
+    background-image: url(image/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+    background-position: center;
+}
+#smoothiesimg {
+  background-image: url(image/smoothies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+  background-position: center;
+}
+#saladimg {
+  background-image: url(image/salads.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+  background-position: center;
+}
+#snacksimg {
+  background-image: url(image/snacks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+  background-position: center;
+}
+#dessertsimg {
+  background-image: url(image/desserts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+  background-position: center;
+}
+#breakfastimg {
+  background-image: url(image/breakfast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+  background-position: center;
+}
+#lunchimg {
+  background-image: url(image/lunch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+  background-position: center;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+  border:#0d0e0d 1px dotted;
+  display:inline;
+  background-color: #171817;
+
+}
+summary:hover{
+    color: #f4f15a
+}
+
